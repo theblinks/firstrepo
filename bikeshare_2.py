@@ -117,6 +117,9 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+# To add my fullname in Title function
+fullname= 'emmanuel kaosi'
+print(fullname.title())
 
 def main():
     while True:
