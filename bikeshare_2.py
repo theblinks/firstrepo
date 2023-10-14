@@ -125,6 +125,9 @@ print(fullname.title())
 fullname= 'EMMANUEL KAOSI'
 print(fullname.islower())
 
+# To print "Mohammed has 27 balloons"
+print('Mohammed has {} balloons'.format(27))
+
 def main():
     while True:
         city, month, day = get_filters()
