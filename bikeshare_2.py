@@ -121,6 +121,10 @@ def user_stats(df):
 fullname= 'emmanuel kaosi'
 print(fullname.title())
 
+# To add my fullname in lowercase function
+fullname= 'EMMANUEL KAOSI'
+print(fullname.islower())
+
 def main():
     while True:
         city, month, day = get_filters()
