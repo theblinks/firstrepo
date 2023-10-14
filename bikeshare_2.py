@@ -128,6 +128,10 @@ print(fullname.islower())
 # To print "Mohammed has 27 balloons"
 print('Mohammed has {} balloons'.format(27))
 
+# To print "my project remark"
+project_name = 'Version Control' remark = 'Excellent'
+print('Your {} project is {}'.format(projrct_name,remark))
+
 def main():
     while True:
         city, month, day = get_filters()
